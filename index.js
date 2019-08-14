@@ -26,7 +26,7 @@ client.on("message", (message) => {
 
 client.on("message", (message) => {
     msg = message.content.toUpperCase()
-    if(msg.includes('KANYE') && msg.includes("INVITE")) return message.channel.send("Invite me and all that, you know: https://discordapp.com/oauth2/authorize?client_id=598186331478163468&scope=bot&permissions=67373120")
+    if(msg.includes('KANYE') && msg.includes("INVITE")) return message.channel.send("Invite me and all that, you know: https://discordapp.com/oauth2/authorize?client_id=587256809627320331&scope=bot&permissions=67373120")
 })
 client.on('error', (error) => {
     console.log('A WebSocket error has occured: ' + error)
