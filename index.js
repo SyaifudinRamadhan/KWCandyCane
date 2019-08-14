@@ -33,7 +33,7 @@ client.on('error', (error) => {
 });
 client.on('disconnect', event => {
     console.log('[DISCONNECTED] Attempting to reconnect')
-    client.login(token)
+    client.login(config.token)
 })
 client.on("ready", () => {
     function setAct() {
